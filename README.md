@@ -27,7 +27,7 @@ deployed and running, not a notebook that stops at the last cell.
 |---|---|---|
 | **[portfolio-dashboard](https://github.com/Aurelien-Choron/portfolio-dashboard)** | Rebuilds positions, P&L and a strategic allocation from raw broker CSV exports — no broker API. Two incompatible export formats reconciled into one journal, weighted-average-cost accounting, live market data, and the risk statistics behind the strategy: volatility, beta, correlations, efficient frontier, stress scenarios. Flask + Plotly, deployed, installable as a PWA. | **[Demo](https://portfolio-dashboard-demo.onrender.com)** |
 | **[museme](https://github.com/Aurelien-Choron/museme)** | Music recommender over 3,815 tracks described by 66 audio features, ranked by cosine similarity. A Dash app I first wrote in 2021 and brought back to life on Python 3.12 in 2026 — the migration log is the interesting part. | **[Demo](https://museme-s4u2.onrender.com)** |
-| **[trading-bot](https://github.com/Aurelien-Choron/trading-bot)** | A daily autonomous investment agent: market data and news read by an LLM (Llama 3.3 70B via Groq), then acted on. Runs are idempotent and automatically replay the market days missed after downtime. | — |
+| **[trading-bot](https://github.com/Aurelien-Choron/trading-bot)** | A daily autonomous investment agent: market data and news read by an LLM (gpt-oss-120b via Groq), then acted on. Runs are idempotent and automatically replay the market days missed after downtime. | — |
 
 ## How I work
 
